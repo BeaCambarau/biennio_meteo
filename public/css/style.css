@@ -189,3 +189,39 @@ body.section-home .link-home{
   /*transition: transform 1s cubic-bezier(.92,.36,.8,.45);*/
   transition: transform 1.5s ease-out;
 }
+
+.icon .weather-mountain {
+    width: 100%;
+    height: 100%; } }
+.weather-1 .weather-icon {
+  background-image: url("../img/bello_fermo.png"); }
+
+.weather-2 .weather-icon {
+  background-image: url("../img/bello_fermo.png"); }
+
+.weather-3 .weather-icon {
+  background-image: url("../img/bello_fermo.png"); } /* NB CAMBIARE SFONDO E LUNA */
+
+.weather-4 .weather-icon {
+  background-image: url("../img/nuvolo_fermo.png"); }
+
+.weather-5 .weather-icon {
+  background-image: url("../img/nuvolo_fermo.png"); } /* NB CAMBIARE SFONDO E LUNA */
+
+.weather-6 .weather-icon {
+  background-image: url("../img/nebbia_fermo.png"); }
+
+.weather-7 .weather-icon {
+  background-image: url("../img/nuvolo_mosso.png"); }
+
+.weather-8 .weather-icon {
+  background-image: url("../img/pioggia_fermo.png"); }
+
+.weather-9 .weather-icon {
+  background-image: url("../img/neve_fermo.png"); }
+
+.weather-10 .weather-icon {
+  background-image: url("../img/neve_fermo.png"); }
+
+.weather-11 .weather-icon {
+  background-image: url("../img/grandine_fermo.png");

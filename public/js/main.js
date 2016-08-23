@@ -90,25 +90,36 @@ function renderWeather(weather, latitude, longitude) {
   $("#weather #today").addClass("weather-"+my_code)
   $("#weather .string").text(my_string)
   $("#weather .humidity").text(weather.humidity+"%")
-  $("#weather .wind").text(weather.wind.speed+" m/s, "+weather.wind.direction)
-  $("#weather .temp .high").text(weather.high)
-  $("#weather .temp .low").text(weather.low)
+  //$("#weather .wind").text(weather.wind.speed+" m/s, "+weather.wind.direction)
+  $("#weather .temp").text(+weather.temp+"°")
+  //$("#weather .temp .low").text(weather.low)
+
 
   showSection("home")
 
   // forecast
   $("#forecast").html("") // empty #forecast ul
-  for(var i in weather.forecast) {
+  //for(var i in weather.forecast) {
+  for(var i=0; i<=3; i++) {
     var forecast = weather.forecast[i]
-    var my_code = getOurWeatherCode(forecast.code)
-    var my_string = getOurWeatherString(my_code)
+    var forecast_my_code = getOurWeatherCode(forecast.code)
+    var forecast_my_string = getOurWeatherString(forecast_my_code)
 
-    var html_forecast ='<li class="weather-'+my_code+'">'
-    html_forecast += '<div>'+my_string+'</div>'
+    var html_forecast ='<li class=" weather  weather-'+forecast_my_code+'">'
+    html_forecast += '<div class="weather-mountain"></div>'
+    html_forecast += '<div class="day">'+forecast.day+'</div>'
     html_forecast += '<div class="temp"><div class="high">'+forecast.high+'</div><div class="low">'+forecast.low+'</div></div>'
     html_forecast += '</li>'
 
+
+    $("#forecast").append(html_forecast)
+    //console.log(forecast)
+
+    //alert(my_string)
+    $("#today").addClass("weather-"+my_code)
+    $("#today .string").text(my_string)
     $("#forecast").prepend(html_forecast)
+    console.log(forecast)
   }
 
   var now = new Date()
@@ -121,6 +132,19 @@ function renderWeather(weather, latitude, longitude) {
     0
   ) // debug
   */
+
+
+
+$(".weather-icon .weather-mountain img").attr("src","img/bello_fermo"+my_code+"-02.png")
+
+
+
+var avg_temp = (parseInt(weather.high)+parseInt(weather.low))/2
+
+
+$("#today").addClass("weather-mountain"+my_code)
+
+
 
   var sunrise = convertSimpleWeatherHoursToDateTime(weather.sunrise)
   var sunset = convertSimpleWeatherHoursToDateTime(weather.sunset)
@@ -306,4 +330,3 @@ function convertSimpleWeatherHoursToDateTime(sunset_string){
 
   return datetime;
 }
-

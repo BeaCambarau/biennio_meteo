@@ -62,7 +62,7 @@
                   <div id="top-right" class="box-angle">
                     <div class="temp">
                       <div class="high"></div>
-                      <div class="low"></div>
+                    <!--  <div class="low"></div> -->
                     </div>
                   </div>
                   <div id="bottom-left" class="box-angle">
@@ -79,9 +79,9 @@
                   </div>
 
                   <div id="today" class="centered">
-                    <div class="icon"></div>
-                    <div class="string"></div>
-                    <div> <img src="../public/img/montagna2.png"></div>
+                    <div class=".weather-icon "></div>
+                    <div class="string"></div>                           <!--RICORDA DI TOGLIERLA -->
+                    <div class="weather-mountain"> <!-- <img src="../public/img/montagna2.png">--></div>
                   </div>
 
                 </div>
@@ -115,7 +115,7 @@
             <a href="./" class="link-home"><i class="fa fa-home"></i></a>
             <a href="#" class="link-refresh"><i class="fa fa-refresh"></i></a>
             <a href="#" class="link-info"><i class="fa fa-info"></i></a>
-          </footer> 
+          </footer>
         </div> -->
 
 
