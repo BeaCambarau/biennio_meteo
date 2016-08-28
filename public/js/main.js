@@ -105,8 +105,8 @@ function renderWeather(weather, latitude, longitude) {
     var forecast_my_code = getOurWeatherCode(forecast.code)
     var forecast_my_string = getOurWeatherString(forecast_my_code)
 
-    var html_forecast ='<li class=" weather  weather-'+forecast_my_code+'">'
-    html_forecast += '<div class="weather-mountain"></div>'
+    var html_forecast ='<li class=" weather-icon  weather-'+forecast_my_code+'">'
+    html_forecast += '<div class="weather-icon"></div>'
     html_forecast += '<div class="day">'+forecast.day+'</div>'
     html_forecast += '<div class="temp"><div class="high">'+forecast.high+'</div><div class="low">'+forecast.low+'</div></div>'
     html_forecast += '</li>'
@@ -133,16 +133,16 @@ function renderWeather(weather, latitude, longitude) {
   ) // debug
   */
 
-
-
-$(".weather-icon .weather-mountain img").attr("src","img/bello_fermo"+my_code+"-02.png")
-
-
-
+var my_code = getOurWeatherCode(weather.code)
 var avg_temp = (parseInt(weather.high)+parseInt(weather.low))/2
 
 
-$("#today").addClass("weather-mountain"+my_code)
+
+
+
+
+
+  $("#today").addClass("weather-icon"+my_code)
 
 
 

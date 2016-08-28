@@ -82,6 +82,7 @@
                     <div class=".weather-icon "></div>
                     <div class="string"></div>                           <!--RICORDA DI TOGLIERLA -->
                     <div class="weather-mountain"> <!-- <img src="../public/img/montagna2.png">--></div>
+
                   </div>
 
                 </div>
