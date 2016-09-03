@@ -177,6 +177,15 @@ body.section-home .link-home{
   bottom: 10px;
   right: 15px;
 }
+.circle {
+  display: inline-block;
+   width: 13px;
+   height: 13px;
+   background: #fff;
+   -moz-border-radius: 50px;
+   -webkit-border-radius: 50px;
+   border-radius: 50px;
+}
 
 #weather #today {
   border: 3px solid green;
@@ -211,7 +220,7 @@ body.section-home .link-home{
   background-image: url("../img/nuvolo_fermo.png"); }
 
 .weather-5 .weather-icon {
-  background-image: url("../img/nuvolo_fermo.png"); } 
+  background-image: url("../img/nuvolo_fermo.png"); }
 
 .weather-6 .weather-icon {
   background-image: url("../img/nebbia_fermo.png"); }
@@ -229,4 +238,4 @@ body.section-home .link-home{
   background-image: url("../img/neve_fermo.png"); }
 
 .weather-11 .weather-icon {
-  background-image: url("../img/grandine_fermo.png");
+  background-image: url("../img/grandine_fermo.png");}

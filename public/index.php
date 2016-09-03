@@ -69,6 +69,11 @@
                     <div class="city"></div>
                   </div>
                   <div id="bottom-right" class="box-angle">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+
+
                   </div>
 
 
