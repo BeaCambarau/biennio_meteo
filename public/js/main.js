@@ -180,6 +180,7 @@ var avg_temp = (parseInt(weather.high)+parseInt(weather.low))/2
     } else {
       window.alert('Geocoder failed due to: ' + status);
     }
+
   });
   /*
   var geocoder = new GClientGeocoder();

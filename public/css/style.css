@@ -1,6 +1,6 @@
 html, body{
   height: 100%;
-  overflow: hidden;
+  overflow: hidden; 
 }
 
 body {
@@ -140,25 +140,27 @@ body.section-home .link-home{
 
 
 #weather{
-  /* border: 1px solid red; */
+  /*border: 1px solid red; */
   position: relative;
   height: 100%;
   width: 100%;
+  background-color: #95D0D2;
 }
 
 #weather .box-angle{
   position: absolute;
-  background-color: #333;
-  width: 100px;
-  height: 100px;
+  background-color: transparent;;
+  width: 70px;
+  height: 70px;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   border-radius: 50%;
-  border: solid red;
+  border: solid #fff;
+  border-width: 3px;
   text-align: center;
-  line-height: 100px; /* centrare vert*/
+  line-height: 70px; /* centrare vert*/
 }
 
 #weather #top-left.box-angle{
@@ -172,6 +174,7 @@ body.section-home .link-home{
 #weather #bottom-left.box-angle{
   bottom: 10px;
   left: 15px;
+  font-size: 7px; /*eliminare bs e city*/
 }
 #weather #bottom-right.box-angle{
   bottom: 10px;
@@ -179,8 +182,8 @@ body.section-home .link-home{
 }
 .circle {
   display: inline-block;
-   width: 13px;
-   height: 13px;
+   width: 8px;
+   height: 8px;
    background: #fff;
    -moz-border-radius: 50px;
    -webkit-border-radius: 50px;
@@ -195,13 +198,67 @@ body.section-home .link-home{
   width: 80%;
   height: 80%;
   /*border: 1px solid red;*/
-  background-image: url("../img/insieme3.png");
+  background-image: url("../img/insieme4.png");
   background-position: center center;
   background-repeat: no-repeat;
   /*transition: transform 1s cubic-bezier(.92,.36,.8,.45);*/
   transition: transform 1.5s ease-out;
 }
+/* -----menu----- */
 
+#chiudi{
+  float: right;
+  font-family: 'myFont', sans-serif;
+  color: #4A4A4A;
+
+}
+#chiudi:hover{
+  color: red;
+}
+#citta{
+  background-color: #E1E1B6;
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+  color: #4A4A4A;
+  font-family: 'myFont', sans-serif;
+}
+p{
+  text-align: center;
+
+}
+
+
+#umidita{
+  background-color: #CFDDBC;
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+  color: #4A4A4A;
+  font-family: 'myFont', sans-serif;
+}
+#gradi{
+  background-color: #B5D7C6;
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+  color: #4A4A4A;
+  font-family: 'myFont', sans-serif;
+}
+#condividi{
+  background-color: #9FD3D0;
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+  color: #4A4A4A;
+  font-family: 'myFont', sans-serif;
+}
+
+
+
+
+
+/*fine menu*/
 
 
 .icon .weather-mountain {
