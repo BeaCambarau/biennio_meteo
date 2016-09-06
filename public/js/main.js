@@ -94,6 +94,9 @@ function renderWeather(weather, latitude, longitude) {
   $("#weather .temp").text(+weather.temp+"°")
   //$("#weather .temp .low").text(weather.low)
 
+  $("#today").addClass("weather-"+my_code)
+  
+
 
   showSection("home")
 
@@ -111,7 +114,8 @@ function renderWeather(weather, latitude, longitude) {
     html_forecast += '<div class="temp"><div class="high">'+forecast.high+'</div><div class="low">'+forecast.low+'</div></div>'
     html_forecast += '</li>'
 
-  
+
+
 
 
 
@@ -140,12 +144,15 @@ var my_code = getOurWeatherCode(weather.code)
 var avg_temp = (parseInt(weather.high)+parseInt(weather.low))/2
 
 
+  $("#today").addClass("weather-"+my_code)
 
 
 
 
 
-  $("#today").addClass("weather-icon"+my_code)
+
+
+
 
 
 

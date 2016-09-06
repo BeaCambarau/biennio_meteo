@@ -153,7 +153,7 @@ body.section-home .link-home{
   height: 100%;
   width: 100%;
   /*background-color: #95D0D2;*/
-
+  /* --------- ATTENZIONE CAMBIARE IN BASE TEMPO E ORE -----------*/
   background-image: -ms-linear-gradient(top, #E4E2B4 0%, #98D1D2 100%);
   /* Mozilla Firefox */
   background-image: -moz-linear-gradient(top, #E4E2B4 0%, #98D1D2 100%);
@@ -164,7 +164,7 @@ body.section-home .link-home{
   /* Webkit (Chrome 11+) */
   background-image: -webkit-linear-gradient(top, #E4E2B4 0%, #98D1D2 100%);
   /* W3C Markup */
-  background-image: linear-gradient(to bottom, #E4E2B4 0%, #98D1D2 100%);/*ATTENZIONE CAMBIARE IN BASE TEMPO E ORE*/
+  background-image: linear-gradient(to bottom, #E4E2B4 0%, #98D1D2 100%);
 
 }
 
@@ -232,8 +232,9 @@ body.section-home .link-home{
 .icon .weather-mountain {
     width: 100%;
     height: 100%; } }
-.weather-1 .weather-icon {
-  background-image: url("../img/bello_fermo.png"); }
+.weather-1 .weather-icon{
+  background-image: url("../img/bello_fermo.png");
+  }
 
 .weather-2 .weather-icon {
   background-image: url("../img/bello_fermo.png"); }
