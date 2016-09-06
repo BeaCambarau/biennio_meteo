@@ -111,6 +111,9 @@ function renderWeather(weather, latitude, longitude) {
     html_forecast += '<div class="temp"><div class="high">'+forecast.high+'</div><div class="low">'+forecast.low+'</div></div>'
     html_forecast += '</li>'
 
+  
+
+
 
     $("#forecast").append(html_forecast)
     //console.log(forecast)

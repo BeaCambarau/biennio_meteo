@@ -1,6 +1,7 @@
 html, body{
   height: 100%;
-  overflow: hidden; 
+
+  overflow: hidden;
 }
 
 body {
@@ -24,6 +25,7 @@ list-style-type: none;
 .col-sm-12{
   padding: 0;
   height: 100%;
+
 }
 
 .row{
@@ -32,13 +34,13 @@ list-style-type: none;
 }
 
 #app {
-  height: calc(100% - 50px);
+  height: 100%;
   margin: 0;
   padding: 0;
 }
 
  #app section {
-   display: none;
+   /* display: none;*/
    height: 100%;
  }
 
@@ -47,6 +49,10 @@ list-style-type: none;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+section#home{
+  margin: 0px;
+  padding: 0px;
 }
 
 #app section#home{
@@ -62,20 +68,14 @@ list-style-type: none;
 }
 
 
-
-
-
-
-
-
-
 /**--------------------------------------**/
+#loading{
+text-align: center;
+font-size: 50px;
 
-/* #logo img {
-  width: 260px;
-} */
+padding: 20%;
 
-
+}
 
 .centered-holder {
   position: relative;
@@ -158,23 +158,24 @@ body.section-home .link-home{
   font-weight: 300;
   border-radius: 50%;
   border: solid #fff;
-  border-width: 3px;
   text-align: center;
-  line-height: 70px; /* centrare vert*/
+  line-height: 67px; /* centrare vert*/
 }
 
 #weather #top-left.box-angle{
   top: 10px;
   left: 15px;
+  font-size: 18px;
 }
 #weather #top-right.box-angle{
   top: 10px;
   right: 15px;
+  font-size: 20px;
 }
 #weather #bottom-left.box-angle{
   bottom: 10px;
   left: 15px;
-  font-size: 7px; /*eliminare bs e city*/
+  font-size: 14px; /*eliminare bs e state*/
 }
 #weather #bottom-right.box-angle{
   bottom: 10px;
@@ -204,61 +205,7 @@ body.section-home .link-home{
   /*transition: transform 1s cubic-bezier(.92,.36,.8,.45);*/
   transition: transform 1.5s ease-out;
 }
-/* -----menu----- */
 
-#chiudi{
-  float: right;
-  font-family: 'myFont', sans-serif;
-  color: #4A4A4A;
-
-}
-#chiudi:hover{
-  color: red;
-}
-#citta{
-  background-color: #E1E1B6;
-  height: 100px;
-  text-align: center;
-  padding-top: 50px;
-  color: #4A4A4A;
-  font-family: 'myFont', sans-serif;
-}
-p{
-  text-align: center;
-
-}
-
-
-#umidita{
-  background-color: #CFDDBC;
-  height: 100px;
-  text-align: center;
-  padding-top: 50px;
-  color: #4A4A4A;
-  font-family: 'myFont', sans-serif;
-}
-#gradi{
-  background-color: #B5D7C6;
-  height: 100px;
-  text-align: center;
-  padding-top: 50px;
-  color: #4A4A4A;
-  font-family: 'myFont', sans-serif;
-}
-#condividi{
-  background-color: #9FD3D0;
-  height: 100px;
-  text-align: center;
-  padding-top: 50px;
-  color: #4A4A4A;
-  font-family: 'myFont', sans-serif;
-}
-
-
-
-
-
-/*fine menu*/
 
 
 .icon .weather-mountain {
@@ -296,3 +243,69 @@ p{
 
 .weather-11 .weather-icon {
   background-image: url("../img/grandine_fermo.png");}
+
+  /*------------------------------- MENU --------------------------*/
+section#open-menu{
+  height: 100%;
+}
+
+  p.chiudi{
+    padding: 20px 20px 0px 0px;
+    font-family: 'myFont', sans-serif;
+    color: #4A4A4A;
+
+    display: inline-block;
+    float: right;
+
+  }
+  p.chiudi:hover{
+    color: #fff;
+  }
+  #citta{
+    background-color: #E1E1B6;
+    height:200px;
+    text-align: center;
+    padding-top: 80px;
+    color: #4A4A4A;
+    font-family: 'myFont', sans-serif;
+  }
+  p.om{
+    text-align: justify;
+    padding-left: 640px;;
+
+  }
+  @media screen and (max-width: 480px) {
+    p.om {
+        padding-left: 120px;;
+    }
+}
+
+
+  #umidita{
+    background-color: #CFDDBC;
+    height: 200px;
+    text-align: center;
+    padding-top: 80px;
+    color: #4A4A4A;
+    font-family: 'myFont', sans-serif;
+  }
+  #gradi{
+    background-color: #B5D7C6;
+    height: 200px;
+    text-align: center;
+    padding-top: 80px;
+    color: #4A4A4A;
+    font-family: 'myFont', sans-serif;
+  }
+  #condividi{
+    background-color: #9FD3D0;
+    height: 200px;
+    text-align: center;
+    padding-top: 80px;
+    color: #4A4A4A;
+    font-family: 'myFont', sans-serif;
+  }
+
+
+
+  /*------------------------------- FINE MENU --------------------------*/

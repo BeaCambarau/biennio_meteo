@@ -68,7 +68,7 @@
                   <div id="bottom-left" class="box-angle">
                     <div class="city"></div>
                   </div>
-                <a href="#open-menu">
+                <a href="menu.html">
                   <div id="bottom-right" class="box-angle">
                     <div class="circle"></div>
                     <div class="circle"></div>
@@ -104,26 +104,7 @@
               </div>
             </div>
           </section>
-          <!-- menu-->
-          <section id="open-menu">
-            <a href="section-home"><p id="chiudi">X</p></a>
-            <div id="citta">
-              <p>Città:BRESCIA</p>
-
-            </div>
-            <div id="umidita">
-              <p>Umidità:98%</p>
-
-            </div>
-            <div id="gradi">
-              <p>Gradi:25°C</p>
-
-            </div>
-            <div id="condividi">
-              <a><p>condividi</p></a>
-
-            </div>
-          </section>
+        
 
 
 
