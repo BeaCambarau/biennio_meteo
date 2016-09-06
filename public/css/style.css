@@ -1,6 +1,6 @@
 html, body{
   height: 100%;
-
+  background-color: transparent;
   overflow: hidden;
 }
 
@@ -21,7 +21,15 @@ p{
 ul {
 list-style-type: none;
 }
+a{
+  text-decoration: none;
+  color: #555;
+}
+a:hover{
+  text-decoration: none;
+  color: #fff;
 
+}
 .col-sm-12{
   padding: 0;
   height: 100%;
@@ -144,7 +152,20 @@ body.section-home .link-home{
   position: relative;
   height: 100%;
   width: 100%;
-  background-color: #95D0D2;
+  /*background-color: #95D0D2;*/
+
+  background-image: -ms-linear-gradient(top, #E4E2B4 0%, #98D1D2 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(top, #E4E2B4 0%, #98D1D2 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(top, #E4E2B4 0%, #98D1D2 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #E4E2B4), color-stop(100, #98D1D2));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top, #E4E2B4 0%, #98D1D2 100%);
+  /* W3C Markup */
+  background-image: linear-gradient(to bottom, #E4E2B4 0%, #98D1D2 100%);/*ATTENZIONE CAMBIARE IN BASE TEMPO E ORE*/
+
 }
 
 #weather .box-angle{
@@ -304,7 +325,9 @@ section#open-menu{
     padding-top: 80px;
     color: #4A4A4A;
     font-family: 'myFont', sans-serif;
+    text-decoration: none;
   }
+
 
 
 
