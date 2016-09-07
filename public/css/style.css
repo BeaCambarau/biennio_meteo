@@ -152,19 +152,9 @@ body.section-home .link-home{
   position: relative;
   height: 100%;
   width: 100%;
-  /*background-color: #95D0D2;*/
-  /* --------- ATTENZIONE CAMBIARE IN BASE TEMPO E ORE -----------*/
-  background-image: -ms-linear-gradient(top, #E4E2B4 0%, #98D1D2 100%);
-  /* Mozilla Firefox */
-  background-image: -moz-linear-gradient(top, #E4E2B4 0%, #98D1D2 100%);
-  /* Opera */
-  background-image: -o-linear-gradient(top, #E4E2B4 0%, #98D1D2 100%);
-  /* Webkit (Safari/Chrome 10) */
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #E4E2B4), color-stop(100, #98D1D2));
-  /* Webkit (Chrome 11+) */
-  background-image: -webkit-linear-gradient(top, #E4E2B4 0%, #98D1D2 100%);
-  /* W3C Markup */
-  background-image: linear-gradient(to bottom, #E4E2B4 0%, #98D1D2 100%);
+  background-color: #95D0D2; /* --------- ATTENZIONE CAMBIARE IN BASE TEMPO E ORE -----------*/
+
+
 
 }
 
@@ -391,7 +381,8 @@ body.section-home .link-home{
 
 
 /* ------------------------- FINE GRADIENT ----------------------*/
-  /*------------------------------- MENU --------------------------*/
+
+/*------------------------------- MENU --------------------------*/
 section#open-menu{
   height: 100%;
 }
