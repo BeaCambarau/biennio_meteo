@@ -213,10 +213,18 @@ body.section-home .link-home{
   background-image: url("../img/insieme4.png");
   background-position: center center;
   background-repeat: no-repeat;
-  /*transition: transform 1s cubic-bezier(.92,.36,.8,.45);*/
   transition: transform 1.5s ease-out;
 }
-
+@media   (max-width: 600px){
+  #weather #sm{
+  max-width: 60%;
+  height: 60%;
+  background-image: url("../img/insieme5.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: transform 1.5s ease-out;
+  }
+}
 
 
 .icon .weather-mountain {
