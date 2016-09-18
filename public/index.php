@@ -85,8 +85,8 @@
 
                   <div id="today" class="centered sfondo">
                     <div class=".weather-icon"></div>
-                    <div class="string"></div>                           <!--RICORDA DI TOGLIERe scritta -->
-                    <div class="weather-mountain"> <!-- <img src="../public/img/montagna2.png">--></div>
+                    <!-- <div class="string"></div> -->
+                    <div class="weather-mountain"> <img /><!-- <img src="../public/img/montagna2.png">--></div>
 
                   </div>
 

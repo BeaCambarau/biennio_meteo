@@ -203,23 +203,26 @@ body.section-home .link-home{
 }
 
 #weather #today {
-  border: 3px solid green;
+  /*border: 3px solid green;*/
+
 }
+
+
 
 #weather #sm {
   width: 80%;
   height: 80%;
   /*border: 1px solid red;*/
-  background-image: url("../img/insieme4.png");
+  background-image: url("../img/insieme3.png");
   background-position: center center;
   background-repeat: no-repeat;
   transition: transform 1.5s ease-out;
 }
 @media   (max-width: 600px){
   #weather #sm{
-  max-width: 60%;
-  height: 60%;
-  background-image: url("../img/insieme5.png");
+  max-width: 100%;
+  height: 100%;
+  background-image: url("../img/insieme6.png");
   background-position: center center;
   background-repeat: no-repeat;
   transition: transform 1.5s ease-out;
@@ -263,6 +266,49 @@ body.section-home .link-home{
 
 .weather-11 .weather-icon {
   background-image: url("../img/grandine_fermo.png");}
+
+
+  @media   (max-width: 600px){
+    .icon .weather-mountain {
+        width: 60%;
+        height: 60%; } }
+    .weather-1 .weather-icon{
+      background-image: url("../img/bello_fermo.png");
+      }
+
+    .weather-2 .weather-icon {
+      background-image: url("../img/bello_fermo.png"); }
+
+    .weather-3 .weather-icon {
+      background-image: url("../img/bello_fermo.png"); }
+
+    .weather-4 .weather-icon {
+      background-image: url("../img/nuvolo_fermo.png"); }
+
+    .weather-5 .weather-icon {
+      background-image: url("../img/nuvolo_fermo.png"); }
+
+    .weather-6 .weather-icon {
+      background-image: url("../img/nebbia_fermo.png"); }
+
+    .weather-7 .weather-icon {
+      background-image: url("../img/nuvolo_mosso.png"); }
+
+    .weather-8 .weather-icon {
+      background-image: url("../img/pioggia_fermo.png"); }
+
+    .weather-9 .weather-icon {
+      background-image: url("../img/neve_fermo.png"); }
+
+    .weather-10 .weather-icon {
+      background-image: url("../img/neve_fermo.png"); }
+
+    .weather-11 .weather-icon {
+      background-image: url("../img/grandine_fermo.png");}
+
+
+
+  }
 /* ----------------------- GRADIENT -----------------------------------*/
 
 .weather-1 .weather-2 .sfondo .day{ /* BELLO GIORNO*/
