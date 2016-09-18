@@ -152,7 +152,8 @@ body.section-home .link-home{
   position: relative;
   height: 100%;
   width: 100%;
-  background-color: #95D0D2; /* --------- ATTENZIONE CAMBIARE IN BASE TEMPO E ORE -----------*/
+
+  /* background-color: #95D0D2; --------- ATTENZIONE CAMBIARE IN BASE TEMPO E ORE -----------*/
 
 
 
@@ -204,6 +205,8 @@ body.section-home .link-home{
 
 #weather #today {
   /*border: 3px solid green;*/
+
+
 
 }
 
@@ -267,174 +270,91 @@ body.section-home .link-home{
 .weather-11 .weather-icon {
   background-image: url("../img/grandine_fermo.png");}
 
+/*------------- SFONDO ----------*/
+.show-1   {
 
-  @media   (max-width: 600px){
-    .icon .weather-mountain {
-        width: 60%;
-        height: 60%; } }
-    .weather-1 .weather-icon{
-      background-image: url("../img/bello_fermo.png");
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/sfondo/-02.png");
+
+    }
+.show-2  {
+
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/sfondo/-02.png");
+
       }
+.show-3 {
 
-    .weather-2 .weather-icon {
-      background-image: url("../img/bello_fermo.png"); }
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/sfondo/-02.png");
 
-    .weather-3 .weather-icon {
-      background-image: url("../img/bello_fermo.png"); }
+            }
 
-    .weather-4 .weather-icon {
-      background-image: url("../img/nuvolo_fermo.png"); }
+.show-4  {
 
-    .weather-5 .weather-icon {
-      background-image: url("../img/nuvolo_fermo.png"); }
-
-    .weather-6 .weather-icon {
-      background-image: url("../img/nebbia_fermo.png"); }
-
-    .weather-7 .weather-icon {
-      background-image: url("../img/nuvolo_mosso.png"); }
-
-    .weather-8 .weather-icon {
-      background-image: url("../img/pioggia_fermo.png"); }
-
-    .weather-9 .weather-icon {
-      background-image: url("../img/neve_fermo.png"); }
-
-    .weather-10 .weather-icon {
-      background-image: url("../img/neve_fermo.png"); }
-
-    .weather-11 .weather-icon {
-      background-image: url("../img/grandine_fermo.png");}
-
-
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/sfondo/-04.png");
 
   }
-/* ----------------------- GRADIENT -----------------------------------*/
+  .show-5 {
 
-.weather-1 .weather-2 .sfondo .day{ /* BELLO GIORNO*/
-  background-image: -ms-linear-gradient(top, #E4E2B4 0%, #98D1D2 100%);
-  background-image: -moz-linear-gradient(top, #E4E2B4 0%, #98D1D2 100%);
-  background-image: -o-linear-gradient(top, #E4E2B4 0%, #98D1D2 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #E4E2B4), color-stop(100, #98D1D2));
-  background-image: -webkit-linear-gradient(top, #E4E2B4 0%, #98D1D2 100%);
-  background-image: linear-gradient(to bottom, #E4E2B4 0%, #98D1D2 100%);
-}
-.weather-3 .sfondo .notte { /* BELLO notte*/
-  background-image: -ms-linear-gradient(top, #8DB6D3 0%, #565EA3 100%);
-  background-image: -moz-linear-gradient(top, #8DB6D3 0%, #565EA3 100%);
-  background-image: -o-linear-gradient(top, #8DB6D3 0%, #565EA3 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #8DB6D3), color-stop(100, #565EA3));
-  background-image: -webkit-linear-gradient(top, #8DB6D3 0%, #565EA3 100%);
-  background-image: linear-gradient(to bottom, #8DB6D3 0%, #565EA3 100%);
-}
-.weather-4 .sfondo .day { /* NUVOLO DAY*/
-  background-image: -ms-linear-gradient(top, #EFECDF 0%, #9DC5C6 100%);
-  background-image: -moz-linear-gradient(top, #EFECDF 0%, #9DC5C6 100%);
-  background-image: -o-linear-gradient(top, #EFECDF 0%, #9DC5C6 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EFECDF), color-stop(100, #9DC5C6));
-  background-image: -webkit-linear-gradient(top, #EFECDF 0%, #9DC5C6 100%);
-  background-image: linear-gradient(to bottom, #EFECDF 0%, #9DC5C6 100%);
-}
-.weather-5 .sfondo .notte{ /* NUVOLO NIGHT*/
-  background-image: -ms-linear-gradient(top, #DFE4EF 0%, #4A5B9C 100%);
-  background-image: -moz-linear-gradient(top, #DFE4EF 0%, #4A5B9C 100%);
-  background-image: -o-linear-gradient(top, #DFE4EF 0%, #4A5B9C 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DFE4EF), color-stop(100, #4A5B9C));
-  background-image: -webkit-linear-gradient(top, #DFE4EF 0%, #4A5B9C 100%);
-  background-image: linear-gradient(to bottom, #DFE4EF 0%, #4A5B9C 100%);
-}
-.weather-6 .sfondo .day{ /* FOGGY DAY*/
-  background-image: -ms-linear-gradient(top, #D6DAD4 0%, #868F80 100%);
-  background-image: -moz-linear-gradient(top, #D6DAD4 0%, #868F80 100%);
-  background-image: -o-linear-gradient(top, #D6DAD4 0%, #868F80 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #D6DAD4), color-stop(100, #868F80));
-  background-image: -webkit-linear-gradient(top, #D6DAD4 0%, #868F80 100%);
-  background-image: linear-gradient(to bottom, #D6DAD4 0%, #868F80 100%);
-}
-.weather-X .sfondo .notte { /* FOGGY NIGHT----> FUORI CODICE */
-  background-image: -ms-linear-gradient(top, #9CB3C1 0%, #83808F 100%);
-  background-image: -moz-linear-gradient(top, #9CB3C1 0%, #83808F 100%);
-  background-image: -o-linear-gradient(top, #9CB3C1 0%, #83808F 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #9CB3C1), color-stop(100, #83808F));
-  background-image: -webkit-linear-gradient(top, #9CB3C1 0%, #83808F 100%);
-  background-image: linear-gradient(to bottom, #9CB3C1 0%, #83808F 100%);
-}
-.weather-7 .sfondo .day{ /* WINDY DAY*/
-  background-image: -ms-linear-gradient(top, #EFECDF 0%, #9DC5C6 100%);
-  background-image: -moz-linear-gradient(top, #EFECDF 0%, #9DC5C6 100%);
-  background-image: -o-linear-gradient(top, #EFECDF 0%, #9DC5C6 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EFECDF), color-stop(100, #9DC5C6));
-  background-image: -webkit-linear-gradient(top, #EFECDF 0%, #9DC5C6 100%);
-  background-image: linear-gradient(to bottom, #EFECDF 0%, #9DC5C6 100%);
-}
-.weather-Y .sfondo .notte { /* WINDY NIGHT ----> FUORI CODICE */
-  background-image: -ms-linear-gradient(top, #DFE4EF 0%, #4A5B9C 100%);
-  background-image: -moz-linear-gradient(top, #DFE4EF 0%, #4A5B9C 100%);
-  background-image: -o-linear-gradient(top, #DFE4EF 0%, #4A5B9C 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DFE4EF), color-stop(100, #4A5B9C));
-  background-image: -webkit-linear-gradient(top, #DFE4EF 0%, #4A5B9C 100%);
-  background-image: linear-gradient(to bottom, #DFE4EF 0%, #4A5B9C 100%);
-}
-.weather-8 .sfondo .day { /* RAINY DAY*/
-  background-image: -ms-linear-gradient(top, #B7C7D5 0%, #D0D8D8 100%);
-  background-image: -moz-linear-gradient(top, #B7C7D5 0%, #D0D8D8 100%);
-  background-image: -o-linear-gradient(top, #B7C7D5 0%, #D0D8D8 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #B7C7D5), color-stop(100, #D0D8D8));
-  background-image: -webkit-linear-gradient(top, #B7C7D5 0%, #D0D8D8 100%);
-  background-image: linear-gradient(to bottom, #B7C7D5 0%, #D0D8D8 100%);
-}
-.weather-z .sfondo .notte { /* RAINY night ----> FUORI CODICE */
-  background-image: -ms-linear-gradient(top, #B7C7D5 0%, #D0D8D8 100%);
-  background-image: -moz-linear-gradient(top, #B7C7D5 0%, #D0D8D8 100%);
-  background-image: -o-linear-gradient(top, #B7C7D5 0%, #D0D8D8 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #B7C7D5), color-stop(100, #D0D8D8));
-  background-image: -webkit-linear-gradient(top, #B7C7D5 0%, #D0D8D8 100%);
-  background-image: linear-gradient(to bottom, #B7C7D5 0%, #D0D8D8 100%);
-}
-.weather-9 .sfondo .day { /* COLD DAY */
-  background-image: -ms-linear-gradient(top, #D4F2F6 0%, #D0D8D8 100%);
-  background-image: -moz-linear-gradient(top, #D4F2F6 0%, #D0D8D8 100%);
-  background-image: -o-linear-gradient(top, #D4F2F6 0%, #D0D8D8 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #D4F2F6), color-stop(100, #D0D8D8));
-  background-image: -webkit-linear-gradient(top, #D4F2F6 0%, #D0D8D8 100%);
-  background-image: linear-gradient(to bottom, #D4F2F6 0%, #D0D8D8 100%);
-}
-.weather-10 .sfondo .day { /* SNOW DAY */
-  background-image: -ms-linear-gradient(top, #D4F2F6 0%, #D0D8D8 100%);
-  background-image: -moz-linear-gradient(top, #D4F2F6 0%, #D0D8D8 100%);
-  background-image: -o-linear-gradient(top, #D4F2F6 0%, #D0D8D8 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #D4F2F6), color-stop(100, #D0D8D8));
-  background-image: -webkit-linear-gradient(top, #D4F2F6 0%, #D0D8D8 100%);
-  background-image: linear-gradient(to bottom, #D4F2F6 0%, #D0D8D8 100%);
-}
-.weather-K .sfondo .notte { /* snow night  ----> FUORI CODICE */
-  background-image: -ms-linear-gradient(top, #D4DFF6 0%, #6B7B9D 100%);
-  background-image: -moz-linear-gradient(top, #D4DFF6 0%, #6B7B9D 100%);
-  background-image: -o-linear-gradient(top, #D4DFF6 0%, #6B7B9D 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #D4DFF6), color-stop(100, #6B7B9D));
-  background-image: -webkit-linear-gradient(top, #D4DFF6 0%, #6B7B9D 100%);
-  background-image: linear-gradient(to bottom, #D4DFF6 0%, #6B7B9D 100%);
-}
-.weather-11 .sfondo .day { /* tunderstorm DAY */
-  background-image: -ms-linear-gradient(top, #D4F2F6 0%, #9BB5B6 100%);
-  background-image: -moz-linear-gradient(top, #D4F2F6 0%, #9BB5B6 100%);
-  background-image: -o-linear-gradient(top, #D4F2F6 0%, #9BB5B6 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #D4F2F6), color-stop(100, #9BB5B6));
-  background-image: -webkit-linear-gradient(top, #D4F2F6 0%, #9BB5B6 100%);
-  background-image: linear-gradient(to bottom, #D4F2F6 0%, #9BB5B6 100%);
-}
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/sfondo/-04.png");
 
-.weather-J .sfondo .notte { /* tunderstorm NIGHT ----> FUORI CODICE */
-  background-image: -ms-linear-gradient(top, #9BB1D9 0%, #87919F 100%);
-  background-image: -moz-linear-gradient(top, #9BB1D9 0%, #87919F 100%);
-  background-image: -o-linear-gradient(top, #9BB1D9 0%, #87919F 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #9BB1D9), color-stop(100, #87919F));
-  background-image: -webkit-linear-gradient(top, #9BB1D9 0%, #87919F 100%);
-  background-image: linear-gradient(to bottom, #9BB1D9 0%, #87919F 100%);
-}
+    }
+.show-6{
+
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/sfondo/-06.png");
+
+    }
+.show-7{
+
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/sfondo/-04.png");
+
+      }
+.show-8{
+
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/sfondo/-08.png");
+
+        }
+.show-9 .{
+
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/sfondo/-09.png");
+
+          }
+.show-10{
+
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/sfondo/-09.png");
+
+            }
+
+.show-11{
+
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/sfondo/-07.png");
+
+            }
 
 
-/* ------------------------- FINE GRADIENT ----------------------*/
+
+
+
 
 /*------------------------------- MENU --------------------------*/
 section#open-menu{

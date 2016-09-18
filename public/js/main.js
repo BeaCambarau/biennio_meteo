@@ -95,7 +95,41 @@ function renderWeather(weather, latitude, longitude) {
   //$("#weather .temp .low").text(weather.low)
 
   $("#today").addClass("weather-"+my_code)
-  alert('meteo shit!')
+
+/* CODICE MONTAGNA */
+  var code_montagna_translation = {
+    1:'bello_fermo.png',
+    2:'bello_fermo.png',
+    3: "bello_fermo.png",
+    4: "nuvolo_fermo.png",
+    5: "nuvolo_fermo.png",
+    6: "nebbia_fermo.png",
+    7: "nuvolo_mosso.png",
+    8: "pioggia_fermo.png",
+    9: "neve_fermo.png",
+    10: "neve_fermo.png",
+    11: "grandine_fermo.png"
+    // metti gli altri prima e dopo
+  }
+
+  var montagna = "img/"+code_montagna_translation[my_code];
+  //alert('meteo shit! my_code: '+my_code+", so image: "+image)
+  $(".weather-mountain img").attr("src", montagna)
+
+
+
+/* CODICE SFONDO */
+$("#app").addClass("show-"+my_code)
+var p = {
+  1:'-02.png',
+  2:'-02.png',
+  3: "-02.png",
+  4: "-04.png"
+
+}
+
+var sfondo="img/sfondo"+p[my_code]
+$("#app").css("background-image", sfondo)
 
 
 

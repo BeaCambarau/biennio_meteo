@@ -50,7 +50,7 @@
 
 
           <!-- home -->
-          <section id="home">
+          <section id="home" class="show" >
             <div class="row">
               <div class="col-sm-12">
                 <div id="weather" class="centered-holder">
@@ -74,6 +74,7 @@
                     <div class="circle"></div>
                     <div class="circle"></div>
                   </div>
+
                 </a>
 
 
@@ -83,7 +84,7 @@
 
                   </div>
 
-                  <div id="today" class="centered sfondo">
+                  <div id="today" class="centered">
                     <div class=".weather-icon"></div>
                     <!-- <div class="string"></div> -->
                     <div class="weather-mountain"> <img /><!-- <img src="../public/img/montagna2.png">--></div>
