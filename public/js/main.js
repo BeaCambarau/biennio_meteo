@@ -1,4 +1,4 @@
-var debug = true
+var debug = false
 //alert('fuck')
 
 function init(){
@@ -124,7 +124,15 @@ var p = {
   1:'-02.png',
   2:'-02.png',
   3: "-02.png",
-  4: "-04.png"
+  4: "-04.png",
+  5: "-04.png",
+  6: "-06.png",
+  7: "-04.png",
+  8: "-08.png",
+  9: "-09.png",
+  10: "-09.png",
+  11: "-07.png"
+
 
 }
 
